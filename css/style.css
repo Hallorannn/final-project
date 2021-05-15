@@ -1,3 +1,157 @@
-p{
+/* p{
     color: aqua;
+} */
+
+
+/* body{
+   
+    margin: 0;
+    background-color: whitesmoke;
 }
+
+nav{
+
+    height: 70px;
+    background-color: pink;
+    width: 100%;
+    border-bottom: 3px dotted rgb(84, 18, 128)
+
+
+    /* z-index: 1; by default, it is zero (0). Setting it to one (1) will bring to forefront. */
+
+
+/* } */
+
+/* header, nav, footer, section, article, aside{
+    border: 1px dotted #000;
+    background-color: #fff;
+}           this is a wireframe */
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Oxygen', sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #e4bb6eb7;
+}
+.wrapper {
+    min-height: calc(100vh - 100px);
+}
+
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 1px;
+}
+#logo{
+    width:75px;
+    height: auto;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:20px;
+    filter:invert(100%);
+
+} 
+#headerDIV {
+    width: 100%;
+    background-image: url("../img/mno.jpg");
+    background-position:  center center;
+}
+    
+h1{
+    text-align: center;
+    margin:0;
+    padding-top:10px;
+    padding-bottom:30px;
+}
+
+nav{
+    width: 100%;
+    height: 5vh;
+    text-align: center;
+    padding-top: 18px;
+    background-color: #ffc979;;
+} 
+
+nav a{
+    border: solid 3px #000;
+    border-radius: 8px;
+    padding: 5px 30px;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: #ffb375;
+}
+
+
+section, article{
+    width: 50%;
+    padding: 0 20px;
+}
+
+
+aside{
+    padding-top:20px;
+    width: 50%;
+    float: right;
+}
+
+
+footer{
+    width: 100%;
+    background-color: #f6975f;
+    padding-top:20px;
+    height: 100px;
+}
+
+a{
+    color: inherit;
+    margin: 0px 10px;
+    text-align: center;
+    border-radius: 2px;
+    transition: border-color .9s;
+}
+
+a:visited{
+    color: inherit;
+}
+
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+
+  input[type=submit] {
+    background-color: #666;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size:1em;
+  }
+  
+
+  input[type=submit]:hover {
+    background-color: #f6975f;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    padding: 20px;
+  } 
